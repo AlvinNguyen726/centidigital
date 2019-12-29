@@ -105,10 +105,10 @@ class IndexPage extends React.Component {
             />
             <Footer timeout={this.state.timeout} />
           </div>
-          <div id="bg"></div>
-          {/* <video id="background-video" loop autoPlay>
+          {/* <div id="bg"></div> */}
+          <video id="background-video" loop autoPlay>
                 <source src={"https://storage.googleapis.com/coverr-main/mp4%2Fcoverr-lago-di-braies-1571919374360.mp4"} type="video/mp4" />
-          </video> */}
+          </video>
         </div>
       </Layout>
     )
