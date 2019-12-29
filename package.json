@@ -28,6 +28,6 @@
     "prettier": "^1.18.2"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
   }
 }
