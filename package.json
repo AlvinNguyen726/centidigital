@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "centidigital",
+  "description": "Transforming and cultivating business through strategy, design, and development",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Alvin Nguyen",
   "dependencies": {
     "gatsby": "^2.15.28",
     "gatsby-plugin-manifest": "^2.2.20",
@@ -29,6 +29,5 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }

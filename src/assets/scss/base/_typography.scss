@@ -55,10 +55,11 @@
 	}
 
 	p {
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 1rem 0;
+		padding: 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h4, h5 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 		line-height: 1.5;
@@ -81,6 +82,56 @@
 			margin: 0 0 (_size(element-margin) * 1) 0;
 		}
 	}
+
+	h3 {
+		color: _palette(fg-bold);
+		font-weight: _font(weight-bold);
+		line-height: 1.5;
+		margin: 3rem 0 0.5rem 0;
+		text-transform: uppercase;
+		letter-spacing: _font(letter-spacing);
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		&.major {
+			border-bottom: solid _size(border-width) _palette(border);
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+			padding-bottom: 0.5rem;
+			margin: 0 0 (_size(element-margin) * 1) 0;
+		}
+	}
+
+	h6 {
+		color: _palette(fg-bold);
+		font-weight: _font(weight-bold);
+		line-height: 1.5;
+		margin: -0.5rem 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: _font(letter-spacing);
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		&.major {
+			border-bottom: solid _size(border-width) _palette(border);
+			width: -moz-max-content;
+			width: -webkit-max-content;
+			width: -ms-max-content;
+			width: max-content;
+			padding-bottom: 0.5rem;
+			margin: 0 0 (_size(element-margin) * 1) 0;
+		}
+	}
+
+
 
 	h1 {
 		font-size: 2.25rem;

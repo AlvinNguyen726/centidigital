@@ -53,13 +53,22 @@
 			line-height: 5.5rem;
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
+			display: flex;
+			justify-content: center;
+			vertical-align: middle;
+			position: relative;
+			padding: 0;
+			margin: 0;
 
 			.icon {
 				&:before {
-					font-size: 2rem;
+					size: 2rem;
 				}
+				vertical-align: middle;
+				width: 80%;
 			}
 		}
+		
 
 		.content {
 			border-style: solid;
@@ -89,6 +98,7 @@
 				letter-spacing: _font(letter-spacing);
 				font-size: 0.8rem;
 				line-height: 2;
+
 			}
 		}
 
@@ -176,6 +186,8 @@
 			}
 		}
 
+
+
 		@include breakpoint(medium) {
 			.content {
 				p {
@@ -184,6 +196,17 @@
 					}
 				}
 			}
+
+			.logo {
+
+				.icon {
+					&:before {
+						font-size: 1.75rem;
+					}
+					width: 80%;
+				}
+			}
+			
 		}
 
 		@include breakpoint(small) {
@@ -201,10 +224,12 @@
 				height: 4.75rem;
 				line-height: 4.75rem;
 
+
 				.icon {
 					&:before {
 						font-size: 1.75rem;
 					}
+					width: 60%;
 				}
 			}
 
