@@ -182,7 +182,7 @@ class Main extends React.Component {
           </p>
           <p>Using a a data-driven approach, our company works with all industries and oversees every step of design &amp; development, from strategy to execution to optimization.</p>
           <span className="image main">
-            <img src={owner} alt="" />
+            {/* <img src={owner} alt="" /> */}
           </span>
           <h3>Our Mission</h3>
           <p>We believe building meaningful and engaging digital experiences is not only about hiring the best agency, but also about choosing the one that will be able to make the most of your idea and will push it further than you could have imagined. </p>
